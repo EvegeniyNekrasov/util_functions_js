@@ -5,9 +5,15 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "node ./src/index.js"
+    "dev": "node ./src/index.js",
+    "format": "npx @biomejs/biome format --write ./src",
+    "lint": "npx @biomejs/biome lint ./src",
+    "reporter": "npx biome check --reporter=summary"
   },
   "keywords": [],
   "author": "Evgeniy Aleksandrovich Nekrasov",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3"
+  }
 }
