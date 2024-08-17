@@ -11,3 +11,5 @@ console.log(utils.displayRagionNames("es"));
 
 const formatedDates = dates.map((date) => utils.relativeTimeFormat(date));
 console.table(formatedDates);
+
+console.log(utils.formatNumberWithCurrency(0.0));
