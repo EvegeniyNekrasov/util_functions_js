@@ -1,0 +1,13 @@
+{
+  "name": "util_functions_js",
+  "version": "0.0.1",
+  "description": "js util functions for personal use",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "Evgeniy Aleksandrovich Nekrasov",
+  "license": "MIT"
+}
